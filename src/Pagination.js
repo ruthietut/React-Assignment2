@@ -1,5 +1,5 @@
 import React from "react";
-import './App.css'
+import "./App.css";
 import classnames from "classnames";
 import { usePagination, DOTS } from "./usePagination";
 import "./pagination.scss";
@@ -21,11 +21,9 @@ const Pagination = (props) => {
     pageSize,
   });
 
-  // If there are less than 2 times in pagination range we shall not render the component
   if (currentPage === 0 || paginationRange.length < 2) {
     return null;
   }
-
   const onNext = () => {
     onPageChange(currentPage + 1);
   };
