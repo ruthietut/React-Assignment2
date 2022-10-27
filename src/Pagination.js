@@ -3,6 +3,7 @@ import "./App.css";
 import classnames from "classnames";
 import { usePagination, DOTS } from "./usePagination";
 import "./pagination.scss";
+import "./index.css"
 
 const Pagination = (props) => {
   const {

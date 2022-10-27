@@ -34,8 +34,8 @@ function Users() {
       {currentTableData?.map((user, i) => (
         <div key={i} className="card">
          
-          <img src={user.picture.large} alt="Avatar" />
-          <h1>{user.name.title},</h1>
+          <img src={user.picture.large} alt="Users' Avatar" />
+          <h4>{user.name.title},</h4>
         
           <h3 >{user.name.first} </h3>
           <h3 >{user.name.last} </h3>

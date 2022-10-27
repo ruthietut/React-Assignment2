@@ -1,6 +1,7 @@
 import Users from "./Users";
 import Error from "./Error";
 import Home from "./Home";
+import "./index.css"
 import { Routes, Route } from "react-router-dom";
 import ErrorBoundary from "./ErrorBoundary";
 

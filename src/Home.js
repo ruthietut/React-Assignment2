@@ -11,8 +11,8 @@ function Home() {
       </div>
       <br />
       <main className="content">
-        <h2>Welcome to the homepage!</h2>
-        <p>Navigate to the users to view our users log</p>
+        <h3>Welcome to the homepage!</h3>
+        <p>Click on the users at the top of the page to access the users log.</p>
       </main>
     </div>
   );
